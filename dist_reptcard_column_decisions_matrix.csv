@@ -1,0 +1,164 @@
+Master Name,Keep Status
+School Year,Keep
+District Code,Keep
+Absenteeism Rate Deduction,Remove
+Accountability Resource Link,Remove
+Agency type,Keep
+CESA,Keep
+Change Outlier Note,Remove
+Charter school indicator,Keep
+Chartering authority,Remove
+City,Keep
+Cooperative Educational Service Agency,Keep
+District Third-Grade ELA Achievement Score,Keep
+District 4 Year Graduation Gap Score,Keep
+District 6 Year Graduation Gap Score,Keep
+District Eighth-Grade Mathematics Achievement Score,Keep
+District Student Achievement Score,Keep
+District Attendance Rate Max Score,Remove
+District Attendance Rate Score,Keep
+District Closing Gaps Max Score,Remove
+District Closing Gaps Score,Remove
+District Eighth-Grade Mathematics Achievement Max Score,Remove
+District ELA Achievement Gap Max Score,Remove
+District ELA Achievement Max Score,Remove
+District ELA Achievement Score,Keep
+District ELA Gap Score,Remove
+District ELA Growth Max Score,Remove
+District ELA Growth Score,Keep
+District Enrollment,Keep
+District Graduation Gap Max Score,Remove
+District Graduation Gap Score,Remove
+District Graduation Rate Max Score,Remove
+District Graduation Rate Score,Keep
+District Student Growth Score,Keep
+District Mathematics Achievement Gap Max Score,Remove
+District Mathematics Achievement Max Score,Remove
+District Mathematics Achievement Score,Keep
+District Mathematics Gap Score,Remove
+District Mathematics Growth Max Score,Remove
+District Mathematics Growth Score,Keep
+District Name,Keep
+District On-Track and Postsecondary Readiness Max Score,Remove
+District On-Track and Postsecondary Readiness Score,Keep
+District Percent Proficient ELA 2014,Keep
+District Percent Proficient ELA 2015,Keep
+District Percent Proficient ELA 2016,Keep
+District Percent Proficient ELA 2017,Keep
+District Percent Proficient ELA 2018,Keep
+District Percent Proficient ELA 2019,Keep
+District Percent Proficient ELA 2021,Keep
+District Percent Proficient Mathematics 2014,Keep
+District Percent Proficient Mathematics 2015,Keep
+District Percent Proficient Mathematics 2016,Keep
+District Percent Proficient Mathematics 2017,Keep
+District Percent Proficient Mathematics 2018,Keep
+District Percent Proficient Mathematics 2019,Keep
+District Percent Proficient Mathematics 2021,Keep
+District Student Achievement Max Score,Remove
+District Student Growth Max Score,Remove
+District Target Group Achievement Score,Remove
+District Target Group Attendance Score,Remove
+District Target Group Chronic Absenteeism Score,Remove
+District Target Group Graduation Score,Remove
+District Target Group Growth Score,Remove
+District Target Group Outcomes Score,Remove
+District Third-Grade ELA Achievement Max Score,Remove
+Dropout Rate Deduction,Remove
+Grade Band for Comparison,Keep
+Highest Grade in the District,Keep
+Locale description,Keep
+Lowest Grade in the District,Keep
+No Score Note,Remove
+Notes,Remove
+Open enrollment note,Remove
+Overall Accountability Rating,Keep
+Overall Accountability Score,Keep
+Percent American Indian or Alaskan Native,Keep
+Percent Asian,Keep
+Percent Between District Mobility,Keep
+Percent Black or African American,Keep
+Percent Economically Disadvantaged,Keep
+Percent Limited English Proficient,Keep
+Percent Hispanic/Latino,Keep
+Percent Native Hawaiian or Other Pacific Islander,Keep
+Percent Students with Disabilities,Keep
+Percent Two or More Races,Keep
+Percent White,Keep
+Percent Within District Mobility,Keep
+School Code,Keep
+School Type,Keep
+Score weighting Achievement Priority Area,Remove
+Score weighting Closing Gaps Priority Area,Remove
+Score weighting Growth Priority Area,Remove
+Score weighting On-Track Priority Area,Remove
+Score weighting Target Group Outcomes Priority Area,Remove
+State Third-Grade ELA Achievement Score,Remove
+State 4 Year Graduation Gaps Max Score,Remove
+State 6 Year Graduation Gaps Max Score,Remove
+State Eighth-Grade Mathematics Achievement Score,Remove
+State Attendance Rate Max Score,Remove
+State Attendance Rate Score,Remove
+State Chronic Absenteeism Rate Score,Remove
+State Closing Gaps Max Score,Remove
+State Closing Gaps Score,Remove
+State Eighth-Grade Mathematics Achievement Max Score,Remove
+State ELA Achievement Gaps Max Score,Remove
+State ELA Achievement Gaps Score,Remove
+State ELA Achievement Max Score,Remove
+State ELA Achievement Score,Remove
+State ELA Growth Max Score,Remove
+State ELA Growth Score,Remove
+State Graduation Gaps Max Score,Remove
+State Graduation Gaps Score,Remove
+State Graduation Rate Max Score,Remove
+State Graduation Rate Score,Remove
+State Mathematics Achievement Gaps Max Score,Remove
+State Mathematics Achievement Gaps Score,Remove
+State Mathematics Achievement Max Score,Remove
+State Mathematics Achievement Score,Remove
+State Mathematics Growth Max Score,Remove
+State Mathematics Growth Score,Remove
+State On-Track and Postsecondary Readiness Max Score,Remove
+State On-Track and Postsecondary Readiness Score,Remove
+State Percent Proficient ELA 2014,Remove
+State Percent Proficient ELA 2015,Remove
+State Percent Proficient ELA 2016,Remove
+State Percent Proficient ELA 2017,Remove
+State Percent Proficient ELA 2018,Remove
+State Percent Proficient ELA 2019,Remove
+State Percent Proficient ELA 2021,Remove
+State Percent Proficient Mathematics 2014,Remove
+State Percent Proficient Mathematics 2015,Remove
+State Percent Proficient Mathematics 2016,Remove
+State Percent Proficient Mathematics 2017,Remove
+State Percent Proficient Mathematics 2018,Remove
+State Percent Proficient Mathematics 2019,Remove
+State Percent Proficient Mathematics 2021,Remove
+State Student Achievement Max Score,Remove
+State Student Achievement Score,Remove
+State Student Growth Max Score,Remove
+State Student Growth Score,Remove
+State Third-Grade ELA Achievement Max Score,Remove
+Student Engagement Indicators Deduction,Remove
+Subgroup with lowest ELA test participation rate 2021,Remove
+Subgroup with lowest math test participation rate 2021,Remove
+Subgroup with lowest test participation rate 2018,Remove
+Subgroup with lowest test participation rate 2019,Remove
+Test Partcipation ELA 2018 All Students,Remove
+Test Partcipation ELA 2018 lowest rate subgroup,Remove
+Test Partcipation ELA 2019 All Students,Remove
+Test Partcipation ELA 2019 lowest rate subgroup,Remove
+Test Partcipation ELA MULTI-YEAR All Students,Remove
+Test Partcipation ELA MULTI-YEAR lowest rate subgroup,Remove
+Test Partcipation Mathematics 2018 All Students,Remove
+Test Partcipation Mathematics 2018 lowest rate subgroup,Remove
+Test Partcipation Mathematics 2019 All Students,Remove
+Test Partcipation Mathematics 2019 lowest rate subgroup,Remove
+Test Partcipation Mathematics MULTI-YEAR All Students,Remove
+Test Partcipation Mathematics MULTI-YEAR lowest rate subgroup,Remove
+Test Participation ELA 2021 All Students,Remove
+Test Participation ELA 2021 lowest rate subgroup,Remove
+Test Participation Mathematics 2021 All Students,Remove
+Test Participation Mathematics 2021 lowest rate subgroup,Remove
+Virtual school indicator,Remove

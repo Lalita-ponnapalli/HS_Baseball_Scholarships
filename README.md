@@ -1,9 +1,14 @@
-# HS_Baseball_Scholarships
-Final_Project
-### Project Details
-### Relationship between a wisconsin school district  demographic and financial charecteristics and atheletic funding.
-### Reason for seclecting : Helping School district allign to their budgets for student success in persuing higher education.
+# The Impact of Extra-curricular Funding on Students Pursuing Higher Education 
+## The Background into Investigating Secondary Education Attendance after High School
+Academic success can be the framework to a young individuals whole future. Dreams of being an astronaut, doctor, or trades worker can inspire someone to work to the best of their abilities in order to achieve that goal. While school systems are very structured and provide strict educational programming, there are many factors that go into each students’ accomplishments. In this analysis, we will be using multiple sources to determine whether there are any significant relationships between a student choosing to seek higher education and high school district demographics, financial characteristics, and athletic funding, specifically in Wisconsin.
+### Reasoning and Importance of this Analysis
+ Attending school isn’t strictly about academics and acing every test. School is a time when children form habits, create relationships, set goals, and develop new passions. The National Center for Education Statistics states “Extracurricular activities provide a channel for reinforcing the lessons learned in the classroom, offering students the opportunity to apply academic skills in a real-world context, and are thus considered part of a well-rounded education.”  Through much of their research, they were able to provide statistical backing based on data collected from US public schools. NCES also stated in 1995 “Recent research suggests that participation in extracurricular activities may increase students' sense of engagement or attachment to their school, and thereby decrease the likelihood of school failure and dropping out (Lamborn et al, 1992; Finn, 1993).” 
+ 
+School Districts have a lot to take into account when it comes to finding a balance in funding academics, assisted programs, extra-curricular activities, and other budgetary needs. If their focus is to encourage students to pursue a high education, one of their priorities taken into consideration would be extracurricular activities based on the finding of NCES.  However, due to socioeconomic restraints of certain districts, the funding may not be available for these reallocations. Districts must consider all aspects when it comes to the success of their students as a whole.
+
+Another reason for this analysis could be assisting parents in their search for a district that will align with their development plan of their child. Families with a passion for sports will choose a school that apportions a fair amount of their budget towards athletics, and a child with extreme talent in the theaters will prefer a district that offers a drama program to shape their child’s performance skills. Guardians should also focus on the academic support provided and the odds of future development for their child to encourage the opportunity of a successful career. 
+
 ### Data sources : WI DPI Data: District Report cards, comparative district costs, comparative district revenue district post-secondary enrollment statistics.
 ### Technogies Used : Python, Jupyter Notebook,Google Colab,Flask,AWS,SQL Postgres, Machine Learning.
-### communication protocols : Using slack and GitHub, scheduling team meetings using Zoom.
-
+### Communication Protocols for Analysis
+Communication will be very important for the successful analysis of high school budgetary allocation, socioeconomic factors, extra-curricular activities and the likelihoods of a child attending another educational institution. Our team will be using slack as the primary form of communication in completing timelines, asking questions, and ensuring that future tasks are discussed and understood. GitHub will be our main source for content with each person having their branch for contribution and opportunity for feedback or adjustments prior to merging to the main branch. Scheduling team meetings using Zoom outside of class time will reiterate our communication, trouble shooting, and team understanding of concepts.

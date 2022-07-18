@@ -12,6 +12,7 @@ When parents are considering schools, they not only take into account the succes
 ### Data Sources Used for Analysis
 WI DPI Data: District Report cards, comparative district costs, comparative district revenue district post-secondary enrollment statistics.
 
+![image](https://user-images.githubusercontent.com/100329223/179616093-a332e5b9-e28f-4820-809b-dc30af90e528.png)
 
 ### Technogies Used for Analysis
 Throughout this project, there will be various technologies used in order to form our analysis, and create a dashboard that will easily communicate the results to school district personnel, parents, or other curious individuals on the importance of funding allocations roll in student pursing higher education. 

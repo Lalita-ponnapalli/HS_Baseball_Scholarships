@@ -1,6 +1,6 @@
 Master_District_Info
 ---
-DISTRICT_ID int pk
+DISTRICT_ID int pk FK >- Postsecondary_Enrollment.DISTRICT_ID
 DISTRICT_NAME varchar
 
 Postsecondary_Enrollment
@@ -26,7 +26,7 @@ STUDENT_COUNT int
 
 Comparative_District_Revenue
 ---
-DISTRICT_ID int pk
+DISTRICT_ID int pk FK >- Master_District_Info.DISTRICT_ID
 DISTRICT_NAME varchar
 FISCAL_YEAR varchar(10)
 PROPTAX float
@@ -38,7 +38,7 @@ MEMBER int
 
 Comparative_District_Costs
 ---
-DISTRICT_ID int pk
+DISTRICT_ID int pk FK >- Master_District_Info.DISTRICT_ID
 DISTRICT_NAME varchar
 FISCAL_YEAR varchar(10)
 Member int
@@ -53,7 +53,7 @@ Food_comm_service_cost float
 District_Report_Card_Info
 ---
 School_Year varchar(10)
-District_ID int pk
+District_ID int pk FK >- Master_District_Info.DISTRICT_ID
 School_Code int
 Cooperative_Educational_Service_Agency varchar
 District_Name varchar
@@ -81,3 +81,11 @@ District_Mathematics_Achievement_Score float
 District_Student_Growth_Score float
 District_ELA_Growth_Score float
 District_Mathematics_Growth_Score float
+
+District_Budget_Breakdowns
+---
+DISTRICT_ID int pk FK >- Master_District_Info.DISTRICT_ID
+SCHOOL_YEAR varchar(10)
+DISTRICT_NAME varchar
+FUND_Function varchar
+AMOUNT float

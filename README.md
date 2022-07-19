@@ -1,3 +1,4 @@
+![header](https://user-images.githubusercontent.com/100329223/179633826-dffbe874-5372-427c-b8c4-857bd98b2ea1.png)
 # The Impact of Funding on Students Pursuing Higher Education 
 ## The Background into Investigating Secondary Education Attendance after High School
 Academic success can be the framework to a young individuals whole future. Dreams of being an astronaut, doctor, or trades worker can inspire someone to work to the best of their abilities in order to achieve that goal. While school systems are very structured and provide strict educational programming, there are many factors that go into each students’ accomplishments. In this analysis, we will be using multiple sources to determine whether there are any significant relationships between a student choosing to seek higher education and high school district demographics, financial characteristics, and extra-curricular funding, specifically in Wisconsin.
@@ -8,19 +9,18 @@ School Districts have a lot to take into account when it comes to finding a bala
 
 When parents are considering schools, they not only take into account the success of academic ratings, but the additional activities and organizations it has to offer. With careful budget analysis, school can set themselves up for the most success and an opportunity for growth by attracting more students, creating a positive reputation, and providing resources for each student to thrive.
  
-
 ### Data Sources Used for Analysis
 WI DPI Data: District Report cards, comparative district costs, comparative district revenue district post-secondary enrollment statistics.
 
 ![image](https://user-images.githubusercontent.com/100329223/179616093-a332e5b9-e28f-4820-809b-dc30af90e528.png)
 
-### Technogies Used for Analysis
+### Technologies Used for Analysis
 Throughout this project, there will be various technologies used in order to form our analysis, and create a dashboard that will easily communicate the results to school district personnel, parents, or other curious individuals on the importance of funding allocations roll in student pursing higher education. 
+Python will be our main programming language to conduct our analysis. Jupyter Notebook, SQL Postgres, and Google Colab will be the interactive web tool we will use to create computational output and visualizations. Machine learning concepts will be used to predict the impact of all variables within the data, with a focus on budgetary allotment to extracurricular activities, and the chances of a student continuing their education following high school. Once we have collected all of our data, altered the content to our needs, and created visual representations, we will use Flask to create a dashboard that clearly displays our findings. Amazon web service (AWS) may be used in cloud computing solutions, database storage, and content delivery. 
 
-Python, Jupyter Notebook,Google Colab,Flask,AWS,SQL Postgres, Machine Learning.
+Below is a brief outline of the machine learning approach we plan on taking to achieve the percent of the budget allotted to each student in each category or activity:
 
 ![learning_machine_outline](https://user-images.githubusercontent.com/100329223/179615531-3e59a72d-a969-4546-8c42-e6ea8cb83860.png)
-
 
 ### Communication Protocols for Analysis
 Communication will be very important for the successful analysis of high school budgetary allocation, socioeconomic factors, extra-curricular activities and the likelihoods of a child attending another educational institution. Our team will be using slack as the primary form of communication in completing timelines, asking questions, and ensuring that future tasks are discussed and understood. GitHub will be our main source for content with each person having their branch for contribution and opportunity for feedback or adjustments prior to merging to the main branch. Scheduling team meetings using Zoom outside of class time will reiterate our communication, trouble shooting, and team understanding of concepts. main

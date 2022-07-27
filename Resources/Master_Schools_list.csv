@@ -1,0 +1,429 @@
+DISTRICT_ID,DISTRICT_NAME
+7,Abbotsford
+14,Adams-Friendship Area
+63,Albany
+70,Algoma
+84,Alma
+91,Alma Center
+105,Almond-Bancroft
+112,Altoona
+119,Amery
+126,Tomorrow River
+140,Antigo Unified
+147,Appleton Area
+154,Arcadia
+161,Argyle
+170,Ashland
+182,Ashwaubenon
+196,Athens
+203,Auburndale
+217,Augusta
+231,Baldwin-Woodville Area
+238,Unity
+245,Bangor
+280,Baraboo
+287,Barneveld
+308,Barron Area
+315,Bayfield
+336,Beaver Dam Unified
+350,Belleville
+364,Belmont Community
+413,Beloit
+422,Beloit Turner
+427,Benton
+434,Berlin Area
+441,Birchwood
+469,Wisconsin Heights
+476,Black River Falls
+485,Blair-Taylor
+490,Pecatonica Area
+497,Bloomer
+602,Bonduel
+609,Boscobel Area
+616,North Lakeland Elementary
+623,Bowler
+637,Boyceville Community
+657,Brighton Elementary
+658,Brillion
+665,Bristol Elementary
+700,Brodhead
+714,Elmbrook
+721,Brown Deer
+735,Bruce
+777,Burlington Area
+840,Butternut
+870,Cadott Community
+882,Cambria-Friesland
+896,Cambridge
+903,Cameron
+910,Campbellsport
+980,Cashton
+994,Cassville
+1015,Cedarburg
+1029,Cedar Grove-Belgium Area
+1071,Chequamegon
+1080,Chetek-Weyerhaeuser Area
+1085,Chilton
+1092,Chippewa Falls Area Unified
+1120,Clayton
+1127,Clear Lake
+1134,Clinton Community
+1141,Clintonville
+1155,Cochrane-Fountain City
+1162,Colby
+1169,Coleman
+1176,Colfax
+1183,Columbus
+1204,Cornell
+1218,Crandon
+1232,Crivitz
+1246,Cuba City
+1253,Cudahy
+1260,Cumberland
+1295,Darlington Community
+1309,Deerfield Community
+1316,De Forest Area
+1376,Kettle Moraine
+1380,Delavan-Darien
+1407,Denmark
+1414,De Pere
+1421,De Soto Area
+1428,Dodgeville
+1449,Kansasville Elementary
+1491,Drummond Area
+1499,Durand-Arkansaw
+1526,Northland Pines
+1540,East Troy Community
+1554,Eau Claire Area
+1561,Edgar
+1568,Edgerton
+1582,Elcho
+1600,Eleva-Strum
+1631,Elkhart Lake-Glenbeulah
+1638,Elkhorn Area
+1645,Elk Mound Area
+1659,Ellsworth Community
+1666,Elmwood
+1673,Royall
+1687,Erin Elementary
+1694,Evansville Community
+1729,Fall Creek
+1736,Fall River
+1813,Fennimore Community
+1848,Lac du Flambeau Elementary
+1855,Florence County
+1862,Fond Du Lac
+1870,Fontana J8
+1883,Fort Atkinson
+1890,Fox Point J2
+1897,Maple Dale-Indian Hill
+1900,Franklin Public
+1939,Frederic
+1945,Northern Ozaukee
+1953,Freedom Area
+2009,Galesville-Ettrick-Trempealeau
+2016,North Crawford
+2044,Geneva J4
+2051,Genoa City J2
+2058,Germantown
+2114,Gibraltar Area
+2128,Gillett
+2135,Gilman
+2142,Gilmanton
+2177,Nicolet Union High School
+2184,Glendale-River Hills
+2198,Glenwood City
+2212,Goodman-Armstrong Creek
+2217,Grafton
+2226,Granton Area
+2233,Grantsburg
+2240,Black Hawk
+2289,Green Bay Area Public
+2296,Greendale
+2303,Greenfield
+2310,Green Lake
+2394,Greenwood
+2415,Gresham
+2420,Hamilton
+2422,Saint Croix Central
+2436,Hartford UHS
+2443,Hartford J1
+2450,Arrowhead UHS
+2460,Hartland-Lakeside J3
+2478,Hayward Community
+2485,Southwestern Wisconsin
+2525,Herman-Neosho-Rubicon
+2527,Highland
+2534,Hilbert
+2541,Hillsboro
+2562,Holmen
+2570,Holy Hill Area
+2576,Horicon
+2583,Hortonville Area
+2604,Howard-Suamico
+2605,Howards Grove
+2611,Hudson
+2618,Hurley
+2625,Hustisford
+2632,Independence
+2639,Iola-Scandinavia
+2646,Iowa-Grant
+2660,Ithaca
+2695,Janesville
+2702,Jefferson
+2730,Johnson Creek
+2737,Juda
+2744,Dodgeland
+2758,Kaukauna Area
+2793,Kenosha
+2800,Kewaskum
+2814,Kewaunee
+2828,Kiel Area
+2835,Kimberly Area
+2842,Kohler
+2849,La Crosse
+2856,Ladysmith
+2863,La Farge
+2884,Lake Geneva-Genoa City UHS
+2885,Lake Geneva J1
+2891,Lake Holcombe
+2898,Lake Mills Area
+2912,Lancaster Community
+2940,Laona
+2961,Lena
+3087,Linn J4
+3094,Linn J6
+3122,Richmond Elementary
+3129,Little Chute Area
+3150,Lodi
+3171,Lomira
+3206,Loyal
+3213,Luck
+3220,Luxemburg-Casco
+3269,Madison Metropolitan
+3276,Manawa
+3290,Manitowoc
+3297,Maple
+3304,Marathon City
+3311,Marinette
+3318,Marion
+3325,Markesan
+3332,Marshall
+3339,Marshfield Unified
+3360,Mauston
+3367,Mayville
+3381,McFarland
+3409,Medford Area Public
+3427,Mellen Public School
+3428,Melrose-Mindoro
+3430,Menasha Joint
+3434,Menominee Indian
+3437,Menomonee Falls
+3444,Menomonie Area
+3479,Mequon-Thiensville
+3484,Mercer School
+3500,Merrill Area
+3510,Swallow Elementary
+3514,North Lake Elementary
+3528,Merton Community
+3542,Stone Bank School District
+3549,Middleton-Cross Plains Area
+3612,Milton
+3619,Milwaukee
+3633,Mineral Point Unified
+3640,Minocqua J1
+3647,Lakeland UHS
+3654,Northwood
+3661,Mishicot
+3668,Mondovi
+3675,Monona Grove
+3682,Monroe
+3689,Montello
+3696,Monticello
+3787,Mosinee
+3794,Mount Horeb Area
+3822,Mukwonago
+3850,Riverdale
+3857,Muskego-Norway
+3862,Lake Country School
+3871,Necedah Area
+3892,Neenah Joint
+3899,Neillsville
+3906,Nekoosa
+3920,New Auburn
+3925,New Berlin
+3934,New Glarus
+3941,New Holstein
+3948,New Lisbon
+3955,New London
+3962,New Richmond
+3969,Niagara
+3976,Norris High
+3983,North Fond Du Lac
+3990,Norwalk-Ontario-Wilton
+4011,Norway J7
+4018,Oak Creek-Franklin Joint
+4025,Oakfield
+4060,Oconomowoc Area
+4067,Oconto Unified
+4074,Oconto Falls Public
+4088,Omro
+4095,Onalaska
+4137,Oostburg
+4144,Oregon
+4151,Parkview
+4165,Osceola
+4179,Oshkosh Area
+4186,Osseo-Fairchild
+4207,Owen-Withee
+4221,Palmyra-Eagle Area
+4228,Pardeeville Area
+4235,Paris J1
+4263,Beecher-Dunbar-Pembine
+4270,Pepin Area
+4305,Peshtigo
+4312,Pewaukee
+4330,Phelps
+4347,Phillips
+4368,Pittsville
+4375,Tri-County Area
+4389,Platteville
+4459,Plum City
+4473,Plymouth Joint
+4501,Portage Community
+4508,Port Edwards
+4515,Port Washington-Saukville
+4522,South Shore
+4529,Potosi
+4536,Poynette
+4543,Prairie Du Chien Area
+4557,Prairie Farm Public
+4571,Prentice
+4578,Prescott
+4606,Princeton School
+4613,Pulaski Community
+4620,Racine Unified
+4627,Randall J1
+4634,Randolph
+4641,Random Lake
+4686,Raymond Elementary
+4690,North Cape Elementary
+4753,Reedsburg
+4760,Reedsville
+4781,Rhinelander
+4795,Rib Lake
+4802,Rice Lake Area
+4820,Richfield J1
+4843,Friess Lake School
+4851,Richland
+4865,Rio Community
+4872,Ripon Area
+4893,River Falls
+4904,River Ridge
+4956,Rosendale-Brandon
+4963,Rosholt
+4970,D C Everest Area
+5019,Saint Croix Falls
+5026,Saint Francis
+5054,Central/Westosha UHS
+5068,Salem Elementary
+5100,Sauk Prairie
+5124,Seneca Area
+5130,Sevastopol
+5138,Seymour Community
+5258,Sharon J11
+5264,Shawano
+5271,Sheboygan Area
+5278,Sheboygan Falls
+5306,Shell Lake
+5348,Shiocton
+5355,Shorewood
+5362,Shullsburg
+5369,Silver Lake J1
+5376,Siren
+5390,Slinger
+5397,Solon Springs School
+5432,Somerset
+5439,South Milwaukee
+5457,Southern Door County
+5460,Sparta Area
+5467,Spencer
+5474,Spooner Area
+5523,River Valley
+5586,Spring Valley
+5593,Stanley-Boyd Area
+5607,Stevens Point Area Public
+5614,Stockbridge
+5621,Stoughton Area
+5628,Stratford
+5642,Sturgeon Bay
+5656,Sun Prairie Area
+5663,Superior
+5670,Suring Public
+5726,Thorp
+5733,Three Lakes
+5740,Tigerton
+5747,Tomah Area
+5754,Tomahawk
+5757,Flambeau
+5780,Trevor-Wilmot Consolidated
+5810,Turtle Lake
+5817,Twin Lakes #4
+5824,Two Rivers Public
+5852,Union Grove UHS
+5859,Union Grove J1
+5866,Valders Area
+5901,Verona Area
+5960,Kickapoo Area
+5985,Viroqua Area
+5992,Wabeno Area
+6013,Big Foot UHS
+6022,Walworth J1
+6027,Washburn
+6069,Washington Island
+6083,Waterford UHS
+6104,Washington-Caldwell
+6113,Waterford Graded J1
+6118,Waterloo
+6125,Watertown Unified
+6174,Waukesha
+6181,Waunakee Community
+6195,Waupaca
+6216,Waupun
+6223,Wausau
+6230,Wausaukee
+6237,Wautoma Area
+6244,Wauwatosa
+6251,Wauzeka-Steuben
+6293,Webster
+6300,West Allis-West Milwaukee
+6307,West Bend
+6321,Westby Area
+6328,West De Pere
+6335,Westfield
+6354,Weston
+6370,West Salem
+6384,Weyauwega-Fremont
+6412,Wheatland J1
+6419,Whitefish Bay
+6426,Whitehall
+6440,White Lake
+6461,Whitewater Unified
+6470,Whitnall
+6475,Wild Rose
+6482,Williams Bay
+6545,Wilmot UHS
+6608,Winneconne Community
+6615,Winter
+6678,Wisconsin Dells
+6685,Wisconsin Rapids
+6692,Wittenberg-Birnamwood
+6713,Wonewoc-Union Center
+6720,Woodruff J1
+6734,Wrightstown Community
+6748,Yorkville J2
+8001,Seeds of Health Inc
+8106,Milwaukee Academy of Science
+8127,Dr Howard Fuller Collegiate Academy
+8131,Escuela Verde
+8139,Pathways High

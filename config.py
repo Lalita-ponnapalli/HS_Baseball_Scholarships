@@ -1,1 +1,1 @@
-db_password ="kakinada"
+db_password =""

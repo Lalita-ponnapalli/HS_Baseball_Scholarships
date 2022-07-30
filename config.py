@@ -1,1 +1,1 @@
-db_password = "Buffy1980"
+db_password ="kakinada"

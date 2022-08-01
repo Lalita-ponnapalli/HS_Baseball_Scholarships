@@ -26,5 +26,10 @@ Below is a brief outline of the machine learning approach we plan on taking to a
 
 ![learning_machine_outline](https://user-images.githubusercontent.com/100329223/179615531-3e59a72d-a969-4546-8c42-e6ea8cb83860.png)
 
+After reconsideration, the best route for analysis was changed to a random forest. By taking in data from multiple reports from the Department of Public Instruction, I will use a random forest to determine what factors are most relevant to a student’s success in post-secondary education.  Through the analysis, we look to find the “sweet spot” of what percentage, per student, of a school district’s budget is the right amount for a student’s post-secondary success.
+
+Below is an outline of what will be within our dashboard:
+![image](https://user-images.githubusercontent.com/100329223/182133044-1ea27941-db19-43c1-a31e-9962b62d2011.png)
+
 ### Communication Protocols for Analysis
 Communication will be very important for the successful analysis of high school budgetary allocation, socioeconomic factors, extra-curricular activities and the likelihoods of a child attending another educational institution. Our team will be using slack as the primary form of communication in completing timelines, asking questions, and ensuring that future tasks are discussed and understood. GitHub will be our main source for content with each person having their branch for contribution and opportunity for feedback or adjustments prior to merging to the main branch. Scheduling team meetings using Zoom outside of class time will reiterate our communication, trouble shooting, and team understanding of concepts. main

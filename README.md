@@ -48,7 +48,6 @@ However, the oob score, which is recommended to be between 0.75 and 1.0, was ver
 <img width="547" alt="oob_score" src="https://user-images.githubusercontent.com/99457275/182747991-0edff02a-ae62-4682-ac44-bd351b1fde02.png">
 
 
-
 ![image](https://user-images.githubusercontent.com/99457275/182747359-aa374d33-9db6-48fb-b624-3692ecc9ec65.png)
 
 

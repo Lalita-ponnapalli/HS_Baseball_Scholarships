@@ -13,6 +13,10 @@ When parents are considering schools, they not only take into account the succes
 WI DPI Data: District Report cards, comparative district costs, comparative district revenue district post-secondary enrollment statistics.
 
 ![image](https://user-images.githubusercontent.com/100329223/179616093-a332e5b9-e28f-4820-809b-dc30af90e528.png)
+### Database created in AWS and connected to postgres
+![image](https://user-images.githubusercontent.com/100485119/181933905-a0b68c93-b1c0-4218-bff9-89314a21b4a3.png)
+![image](https://user-images.githubusercontent.com/100485119/181933916-cfd52901-8f94-4ff8-a4fc-ca0e9dd67486.png)
+![image](https://user-images.githubusercontent.com/100485119/181933941-ac20e74f-2f75-42b4-bc74-47d22263db67.png)
 
 ### Technologies Used for Analysis
 Throughout this project, there will be various technologies used in order to form our analysis, and create a dashboard that will easily communicate the results to school district personnel, parents, or other curious individuals on the importance of funding allocations roll in student pursing higher education. 
@@ -21,6 +25,11 @@ Python will be our main programming language to conduct our analysis. Jupyter No
 Below is a brief outline of the machine learning approach we plan on taking to achieve the percent of the budget allotted to each student in each category or activity:
 
 ![learning_machine_outline](https://user-images.githubusercontent.com/100329223/179615531-3e59a72d-a969-4546-8c42-e6ea8cb83860.png)
+
+After reconsideration, the best route for analysis was changed to a random forest. By taking in data from multiple reports from the Department of Public Instruction, I will use a random forest to determine what factors are most relevant to a student’s success in post-secondary education.  Through the analysis, we look to find the “sweet spot” of what percentage, per student, of a school district’s budget is the right amount for a student’s post-secondary success.
+
+Below is an outline of what will be within our dashboard:
+![image](https://user-images.githubusercontent.com/100329223/182133044-1ea27941-db19-43c1-a31e-9962b62d2011.png)
 
 ### Communication Protocols for Analysis
 Communication will be very important for the successful analysis of high school budgetary allocation, socioeconomic factors, extra-curricular activities and the likelihoods of a child attending another educational institution. Our team will be using slack as the primary form of communication in completing timelines, asking questions, and ensuring that future tasks are discussed and understood. GitHub will be our main source for content with each person having their branch for contribution and opportunity for feedback or adjustments prior to merging to the main branch. Scheduling team meetings using Zoom outside of class time will reiterate our communication, trouble shooting, and team understanding of concepts. main

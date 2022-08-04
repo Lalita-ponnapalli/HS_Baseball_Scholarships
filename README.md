@@ -26,7 +26,30 @@ Below is a brief outline of the machine learning approach we plan on taking to a
 
 ![learning_machine_outline](https://user-images.githubusercontent.com/100329223/179615531-3e59a72d-a969-4546-8c42-e6ea8cb83860.png)
 
-After reconsideration, the best route for analysis was changed to a random forest. By taking in data from multiple reports from the Department of Public Instruction, I will use a random forest to determine what factors are most relevant to a student’s success in post-secondary education.  Through the analysis, we look to find the “sweet spot” of what percentage, per student, of a school district’s budget is the right amount for a student’s post-secondary success.
+### Machine Learning
+The data, once taken in, required some preprocessing to get it ready for machine learning.  This involved removing identifying columns and columns where there weas only one unique value throughout the data.  
+
+<img width="1029" alt="drop_columns" src="https://user-images.githubusercontent.com/99457275/182747899-37d8edcf-b89d-47bd-8a1e-fdd93dc34db3.png">
+
+The feature selection was done mostly in cleaning the data, as we, as a team, determined what data was worth considering.  We had determined that spending in other areas of school administration were not needed for this analysis.   The data was split using train_test_split to ensure a random sample. 
+
+<img width="680" alt="train_test_split" src="https://user-images.githubusercontent.com/99457275/182747940-2c28e967-18a2-4efb-9094-d200fef88ee5.png">
+
+Model choice was initially a struggle, which led to a switch part way through the project.  While we initially wanted to try a deep neural network, we found that it was the wrong choice.  With some advisement from the instruction team, we settled on Random Forests as our machine learning model.  While we were unable to find the “sweet spot” of spending, we were able to determine which factors were the most important for our data.  
+
+<img width="639" alt="ranking_feature_importance" src="https://user-images.githubusercontent.com/99457275/182748057-fb98340e-c0cb-4d8a-ab1f-f19c04face7b.png">
+
+Our accuracy in this model was based on MAE, MSE, and oob (Out of Bag) score.  The MAE and MSE were large, but we suspect that was due to the large numbers used in this analysis. 
+
+<img width="455" alt="mae_mse" src="https://user-images.githubusercontent.com/99457275/182748019-0e0144c8-355d-495c-ae36-63aea52aa43c.png">
+
+However, the oob score, which is recommended to be between 0.75 and 1.0, was very close to 1.0, suggesting a strong model without overfitting.
+
+<img width="547" alt="oob_score" src="https://user-images.githubusercontent.com/99457275/182747991-0edff02a-ae62-4682-ac44-bd351b1fde02.png">
+
+
+
+
 
 Below is an outline of what will be within our dashboard:
 ![image](https://user-images.githubusercontent.com/100329223/182133044-1ea27941-db19-43c1-a31e-9962b62d2011.png)

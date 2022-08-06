@@ -26,6 +26,9 @@ Below is a brief outline of the machine learning approach we plan on taking to a
 
 ![learning_machine_outline](https://user-images.githubusercontent.com/100329223/179615531-3e59a72d-a969-4546-8c42-e6ea8cb83860.png)
 
+### Initial Analysis and Data Exploration
+(Bryon pulling simple graph, Brenda adding in screenshots from initial jupyter notebook cleaning and exploration)
+
 ### Machine Learning
 The data, once taken in, required some preprocessing to get it ready for machine learning.  This involved removing identifying columns and columns where there weas only one unique value throughout the data.  
 
@@ -58,4 +61,4 @@ Below is an outline of what will be within our dashboard:
 Communication will be very important for the successful analysis of high school budgetary allocation, socioeconomic factors, extra-curricular activities and the likelihoods of a child attending another educational institution. Our team will be using slack as the primary form of communication in completing timelines, asking questions, and ensuring that future tasks are discussed and understood. GitHub will be our main source for content with each person having their branch for contribution and opportunity for feedback or adjustments prior to merging to the main branch. Scheduling team meetings using Zoom outside of class time will reiterate our communication, trouble shooting, and team understanding of concepts. 
 
 ### Conclusion
-With the data we were able to clean and use, we were not able to find the “sweet spot” of extracurricular spending per student.  However, by using the Random Forests model, we were able to identify important factors.  The three most important factors were total revenue, number of students, and the percentage of economically disadvantaged students.  We determined that “groupcount” was a subset of members, so we aren’t considering it in our top three.  We expect, given the data, that large, affluent school districts are the best poised to spend highly on extracurricular activites. 
+Once we had cleaned our data and filtered it down into a set usable for the resources we had available (limiting post-secondary data to only full sets by school and limiting spending and achievement data to only the 2017-18 school year), we were not able to pinpoint a “sweet spot” of extracurricular spending per student.  However, by using the Random Forests model, we were able to identify important factors.  The three most important factors were total revenue, number of students, and the percentage of economically disadvantaged students.  We determined that “groupcount” was a subset of members, so we aren’t considering it in our top three.  We expect, given the data, that large, affluent school districts are the best poised to spend highly on extracurricular activites. 

@@ -13,10 +13,14 @@ When parents are considering schools, they not only take into account the succes
 WI DPI Data: District Report cards, comparative district costs, comparative district revenue district post-secondary enrollment statistics.
 
 ![image](https://user-images.githubusercontent.com/100329223/179616093-a332e5b9-e28f-4820-809b-dc30af90e528.png)
-### Database created in AWS and connected to postgres
+### Postgres Database on AWS Cloud
+
+Postgres database is spun up on AWS RDS instance to store the data, generate dashboards and perform the analysis. The data is transformed, cleansed and inserted into this database using python scripts.
+
 ![image](https://user-images.githubusercontent.com/100485119/181933905-a0b68c93-b1c0-4218-bff9-89314a21b4a3.png)
 ![image](https://user-images.githubusercontent.com/100485119/181933916-cfd52901-8f94-4ff8-a4fc-ca0e9dd67486.png)
 ![image](https://user-images.githubusercontent.com/100485119/181933941-ac20e74f-2f75-42b4-bc74-47d22263db67.png)
+
 
 ### Technologies Used for Analysis
 Throughout this project, there will be various technologies used in order to form our analysis, and create a dashboard that will easily communicate the results to school district personnel, parents, or other curious individuals on the importance of funding allocations roll in student pursing higher education. 

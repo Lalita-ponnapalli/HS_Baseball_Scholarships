@@ -640,8 +640,8 @@ a:focus {
   width: 100%;
   padding: 45px 0 15px 0;
   overflow: hidden;
-  background: linear-gradient(rgba(254, 255, 255, 0.171), rgba(243, 243, 243, 0.062)),
-    url(../img/background.jpg);
+  background: linear-gradient(rgba(100, 130, 163, 0.377), rgba(100, 130, 163, 0.377)),
+    url(../img/background1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

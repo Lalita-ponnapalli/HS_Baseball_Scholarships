@@ -60,6 +60,7 @@ However, the oob score, which is recommended to be between 0.75 and 1.0, was ver
 
 Below is an outline of what will be within our dashboard:
 ![image](https://user-images.githubusercontent.com/100329223/182133044-1ea27941-db19-43c1-a31e-9962b62d2011.png)
+https://public.tableau.com/app/profile/staci.stapleton/viz/Activity_Spending_Education/Dashboard1
 
 ### Conclusion
 Once data had been cleaned and filtered down into a set usable with the resources we had available (limiting post-secondary data to only full sets by school and limiting spending and achievement data to only the 2017-18 school year), we were not able to pinpoint a “sweet spot” of extracurricular spending per student.  However use of the Random Forests model allowed the team to identify important factors.  The three most important factors were total revenue, number of students, and the percentage of economically disadvantaged students.  While "group count" showed in our model as an important factor, it is a direct subset of the number of students, so was excluded from our final analysis.  After reviewing the results and correlations shown within the model, it was clear that larger, more affluent school districts (those with higher student counts and higher levels of revenue per student) are best poised to spend highly on extracurricular activites. 

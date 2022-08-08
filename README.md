@@ -10,7 +10,7 @@ School Districts have a lot to take into account when it comes to finding a bala
 When parents are considering schools, they not only take into account the success of academic ratings, but the additional activities and organizations it has to offer. With careful budget analysis, school can set themselves up for the most success and an opportunity for growth by attracting more students, creating a positive reputation, and providing resources for each student to thrive.
  
 ### Data Sources Used for Analysis
-WI DPI Data: District Report cards, comparative district costs, comparative district revenue district post-secondary enrollment statistics.
+Data for this project was pulled from publicly available information sources through the Wisconsin Department of Public Instruction (DPI). In order to measure district income and overall spending levels, data from the Comparative Cost (https://dpi.wi.gov/sfs/statistical/cost-revenue/section-d) and Comparative Revenue (https://dpi.wi.gov/sfs/statistical/cost-revenue/comparative-revenue-member) reports were pulled. In order to specifically allow the team to examine extracurricular spending, which is not reported on a comparative basis at the district levels, it was also necessary to pull full reported budgetary data per district from the School Finance Reporting Portal (https://dpi.wi.gov/sfs/reporting/safr/budget/data-download). In order to add information on district achievements and outcomes, data was pulled from the School and District Report Cards (https://dpi.wi.gov/accountability/report-cards) and from Statewide Post-Secondary Enrollment dashboards (https://dpi.wi.gov/wisedash/about-data/postsecondary). While data from DPI does contain primary keys referencing districts individually, the integration of these varied data sources proved challenging on several levels, which are explained further in the section on analysis and exploration.
 
 ![image](https://user-images.githubusercontent.com/100329223/179616093-a332e5b9-e28f-4820-809b-dc30af90e528.png)
 ### Postgres Database on AWS Cloud
@@ -32,6 +32,23 @@ Below is a brief outline of the machine learning approach we plan on taking to a
 
 ### Initial Analysis and Data Exploration
 (Bryon pulling simple graph, Brenda adding in screenshots from initial jupyter notebook cleaning and exploration)
+Initial data examination and identification began with making choices on what and how to scrape from the DPI site. Publicly available data goes back more than twenty years, so it was necessary for the team to first narrow down the scope. While a recent two- to three-year scope was identified by the team as desirable to examine trends, the global pandemic had a significant effect on school district reporting and trends, so a decision was made to collect data from the 2017-18, 2018-19, 2019-20, 2020-21, and 2021-22 school years. In this way, the team hoped to focus on multiple year trends and the most recent data, while still allowing for anomalous data from the years affected most by the pandemic. 
+
+Examination began by pulling all available data for each year, joining the tables to create tables that reflected the longitudinal data for each report in preparation for more detailed examination, database creation, and table joins and querying.
+
+#### Confounding Factors and Solutions
+##### Data Availability
+While pulling data, the team immediately identified two confounding factors: post-secondary data has not yet been reported and uploaded to DPI for the 2021-22 school year, and school district report card data is not available for the 2019-20 school year. 
+![No Report Cards for 2019-20 School Year](link to NoRptCd2019.png)
+
+##### Data Point Inconsistency
+Individual fields within the collected data that purported to show the same data still contained inconsistencies. For example, one report may refer to district 14 as "Adams-Friendship Area" and another as "Adams Friendship Area Schools". Most reports also contained student enrollment data, but the data varied slightly due to the points in time when it was collected. Districts report enrollment on the third Friday of September, but post-secondary enrollment reporting is based on much more dyniamic sources of information. 
+
+Other important outlier data included district types. Typical extracurricular spending increases at the secondary level. While most districts within the state are K-12 (meaning they serve students from kindergarten through twelfth grade), there are a number of other configurations. For example, the Big Foot Joint School District is a 9-12 only district, serving four separate K-8 districts as a consolidated high school. Although the students all flow up to the same secondary school district, each feeder district maintains it's own costs, revenues, and budgets. 
+
+##### Data Size
+In order to gather specific data on extracurricular program, which is coded as "Co-Curricular Activities" in Wisconsin school district financial reporting documents, the team needed to pull full budgetary details for each school district over each year. The State of Wisconsin makes all of this data available, but because the data includes every single coded expenditure for every district for the entire school year, each year is split into multiple files. When combining this data, the team needed to make multiple decisions in order to pare the data down. Initial attempts to join the tables led to creation of a database that was so large even Google CoLab was unable to parse it.
+![Memory Error](link to datasizeerror.png)
 
 ### Machine Learning
 The data, once taken in, required some preprocessing to get it ready for machine learning.  This involved removing identifying columns and columns where there weas only one unique value throughout the data.  

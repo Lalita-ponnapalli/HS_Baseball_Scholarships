@@ -10,13 +10,17 @@ School Districts have a lot to take into account when it comes to finding a bala
 When parents are considering schools, they not only take into account the success of academic ratings, but the additional activities and organizations it has to offer. With careful budget analysis, school can set themselves up for the most success and an opportunity for growth by attracting more students, creating a positive reputation, and providing resources for each student to thrive.
  
 ### Data Sources Used for Analysis
-WI DPI Data: District Report cards, comparative district costs, comparative district revenue district post-secondary enrollment statistics.
+Data for this project was pulled from publicly available information sources through the Wisconsin Department of Public Instruction (DPI). In order to measure district income and overall spending levels, data from the Comparative Cost (https://dpi.wi.gov/sfs/statistical/cost-revenue/section-d) and Comparative Revenue (https://dpi.wi.gov/sfs/statistical/cost-revenue/comparative-revenue-member) reports were pulled. In order to specifically allow the team to examine extracurricular spending, which is not reported on a comparative basis at the district levels, it was also necessary to pull full reported budgetary data per district from the School Finance Reporting Portal (https://dpi.wi.gov/sfs/reporting/safr/budget/data-download). In order to add information on district achievements and outcomes, data was pulled from the School and District Report Cards (https://dpi.wi.gov/accountability/report-cards) and from Statewide Post-Secondary Enrollment dashboards (https://dpi.wi.gov/wisedash/about-data/postsecondary). While data from DPI does contain primary keys referencing districts individually, the integration of these varied data sources proved challenging on several levels, which are explained further in the section on analysis and exploration.
 
 ![image](https://user-images.githubusercontent.com/100329223/179616093-a332e5b9-e28f-4820-809b-dc30af90e528.png)
-### Database created in AWS and connected to postgres
+### Postgres Database on AWS Cloud
+
+Postgres database is spun up on AWS RDS instance to store the data, generate dashboards and perform the analysis. The data is transformed, cleansed and inserted into this database using python scripts.
+
 ![image](https://user-images.githubusercontent.com/100485119/181933905-a0b68c93-b1c0-4218-bff9-89314a21b4a3.png)
 ![image](https://user-images.githubusercontent.com/100485119/181933916-cfd52901-8f94-4ff8-a4fc-ca0e9dd67486.png)
 ![image](https://user-images.githubusercontent.com/100485119/181933941-ac20e74f-2f75-42b4-bc74-47d22263db67.png)
+
 
 ### Technologies Used for Analysis
 Throughout this project, there will be various technologies used in order to form our analysis, and create a dashboard that will easily communicate the results to school district personnel, parents, or other curious individuals on the importance of funding allocations roll in student pursing higher education. 
@@ -28,6 +32,23 @@ Below is a brief outline of the machine learning approach we plan on taking to a
 
 ### Initial Analysis and Data Exploration
 (Bryon pulling simple graph, Brenda adding in screenshots from initial jupyter notebook cleaning and exploration)
+Initial data examination and identification began with making choices on what and how to scrape from the DPI site. Publicly available data goes back more than twenty years, so it was necessary for the team to first narrow down the scope. While a recent two- to three-year scope was identified by the team as desirable to examine trends, the global pandemic had a significant effect on school district reporting and trends, so a decision was made to collect data from the 2017-18, 2018-19, 2019-20, 2020-21, and 2021-22 school years. In this way, the team hoped to focus on multiple year trends and the most recent data, while still allowing for anomalous data from the years affected most by the pandemic. 
+
+Examination began by pulling all available data for each year, joining the tables to create tables that reflected the longitudinal data for each report in preparation for more detailed examination, database creation, and table joins and querying.
+
+#### Confounding Factors and Solutions
+##### Data Availability
+While pulling data, the team immediately identified two confounding factors: post-secondary data has not yet been reported and uploaded to DPI for the 2021-22 school year, and school district report card data is not available for the 2019-20 school year. 
+![No Report Cards for 2019-20 School Year](link to NoRptCd2019.png)
+
+##### Data Point Inconsistency
+Individual fields within the collected data that purported to show the same data still contained inconsistencies. For example, one report may refer to district 14 as "Adams-Friendship Area" and another as "Adams Friendship Area Schools". Most reports also contained student enrollment data, but the data varied slightly due to the points in time when it was collected. Districts report enrollment on the third Friday of September, but post-secondary enrollment reporting is based on much more dyniamic sources of information. 
+
+Other important outlier data included district types. Typical extracurricular spending increases at the secondary level. While most districts within the state are K-12 (meaning they serve students from kindergarten through twelfth grade), there are a number of other configurations. For example, the Big Foot Joint School District is a 9-12 only district, serving four separate K-8 districts as a consolidated high school. Although the students all flow up to the same secondary school district, each feeder district maintains it's own costs, revenues, and budgets. 
+
+##### Data Size
+In order to gather specific data on extracurricular program, which is coded as "Co-Curricular Activities" in Wisconsin school district financial reporting documents, the team needed to pull full budgetary details for each school district over each year. The State of Wisconsin makes all of this data available, but because the data includes every single coded expenditure for every district for the entire school year, each year is split into multiple files. When combining this data, the team needed to make multiple decisions in order to pare the data down. Initial attempts to join the tables led to creation of a database that was so large even Google CoLab was unable to parse it.
+![Memory Error](link to datasizeerror.png)
 
 ### Machine Learning
 The data, once taken in, required some preprocessing to get it ready for machine learning.  This involved removing identifying columns and columns where there weas only one unique value throughout the data.  
@@ -56,9 +77,11 @@ However, the oob score, which is recommended to be between 0.75 and 1.0, was ver
 
 Below is an outline of what will be within our dashboard:
 ![image](https://user-images.githubusercontent.com/100329223/182133044-1ea27941-db19-43c1-a31e-9962b62d2011.png)
-
-### Communication Protocols for Analysis
-Communication will be very important for the successful analysis of high school budgetary allocation, socioeconomic factors, extra-curricular activities and the likelihoods of a child attending another educational institution. Our team will be using slack as the primary form of communication in completing timelines, asking questions, and ensuring that future tasks are discussed and understood. GitHub will be our main source for content with each person having their branch for contribution and opportunity for feedback or adjustments prior to merging to the main branch. Scheduling team meetings using Zoom outside of class time will reiterate our communication, trouble shooting, and team understanding of concepts. 
+https://public.tableau.com/app/profile/staci.stapleton/viz/Activity_Spending_Education/Dashboard1
 
 ### Conclusion
-Once we had cleaned our data and filtered it down into a set usable for the resources we had available (limiting post-secondary data to only full sets by school and limiting spending and achievement data to only the 2017-18 school year), we were not able to pinpoint a “sweet spot” of extracurricular spending per student.  However, by using the Random Forests model, we were able to identify important factors.  The three most important factors were total revenue, number of students, and the percentage of economically disadvantaged students.  We determined that “groupcount” was a subset of members, so we aren’t considering it in our top three.  We expect, given the data, that large, affluent school districts are the best poised to spend highly on extracurricular activites. 
+Once data had been cleaned and filtered down into a set usable with the resources we had available (limiting post-secondary data to only full sets by school and limiting spending and achievement data to only the 2017-18 school year), we were not able to pinpoint a “sweet spot” of extracurricular spending per student.  However use of the Random Forests model allowed the team to identify important factors.  The three most important factors were total revenue, number of students, and the percentage of economically disadvantaged students.  While "group count" showed in our model as an important factor, it is a direct subset of the number of students, so was excluded from our final analysis.  After reviewing the results and correlations shown within the model, it was clear that larger, more affluent school districts (those with higher student counts and higher levels of revenue per student) are best poised to spend highly on extracurricular activites. 
+
+Several factors merit further analysis using resources not available to a student group. Revenue levels per student are particularly sticky in Wisconsin, given the implementation of revenue growth caps in 1993. Since then, school districts have been limited to increasing their revenues within specific areas to a specific percentage, unless they use a referendum. Arguments have been made that the growth cap has artificially frozen districts into spending models that are not reflective of their current makeup and structure (https://www.wpr.org/rising-referendums-school-funding-101). Further longitudinal dives into the specific revenue levels per student historically may shed light on whether districts that have seen dramatic changes in makeup since the 1993 freeze are able to adjust and provide the same levels of extracurricular spending allowed by districts that have remained unchanged.
+
+https://lalita-ponnapalli.github.io/HS_Baseball_Scholarships/ 

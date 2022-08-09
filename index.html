@@ -46,7 +46,6 @@
                    <a href="#explore" class="nav-item nav-link">Data Exploration</a> 
                    <a href="#machinelearning" class="nav-item nav-link">Machine Learning</a>
                    <a href="#results" class="nav-item nav-link">Results</a>
-                   <a href="#lessons" class="nav-item nav-link">Lessons Learned</a>
                    <a href="#workflow" class="nav-item nav-link">Technologies Used</a>
                    <a href="#team" class="nav-item nav-link">Team</a>
                 </div>
@@ -246,13 +245,15 @@
           <div class="col-lg-6">
             <div class="storage-item wow fadeInUp" data-wow-delay="0.3s" style="visibility: visable; animation-delay: 0.1; animation-name: fadeInUp;">
               <div class="storage-img">
-                <img src="img/???????.png" alt="storage">
+                <img src="img/origrevdf.png" alt="rev">
+                <img src="img/revcleanexample.png" alt="rev1">
+                <img src="img/updatedrevdf.png" alt="rev2">
               </div>
               <div class="storage-text">
-                <h2>Additional Info </h2>
+                <h2>Example of Data Cleaning </h2>
                 <div class="storage-meta">
                 </div>
-                <p>info
+                <p>
                 </p>
               </div>
             </div> 
@@ -264,57 +265,62 @@
 
     <!--Data Exploration Start-->
     <div class="explore" id="explore">
-      <div class="container">
-          <div class="section-header text-center wow zoomIn"
-          data-wow-delay="0.1s">
-          <p>Data Exploration</p>
-          <br>
-          <h2>Data Exploration and Initial Analysis</h2>
-      </div>
-      <div class="row">
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-              <div class="explore-item">
-                  <div class="explore-text">
-                      <h3>Revenue Impact on Achievement Scores</h3>
-                      <p> A very basic analysis of overall funding and its impact on achievement scores can be completed as seen below; however, there are many factors that need to be taken into account to determine a monetary value that ensures the success of each student.  To further explore adequet funding that yeilds high achievement scores/continuing education, we will narrow our search to impactful information and make sure data is evenly weighed per student. </p>
-                      <img src="img/plot9.png" alt="overall_funding" width="375" height="300">
-                  </div>
-              </div>  
-          </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-              <div class="explore-item">
-                  <div class="explore-text">
-                      <h3>Data Exploration 2 </h3>
-                      <p>Information</p>
-                        <img src="img/?????.png" alt="????" width="150" height="150">
-                  </div>
-              </div>
-          </div>
-          <!---->
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-              <div class="explore-item">
-                  <div class="explore-text">
-                      <h3>Data Exploration 3</h3>
-                      <br>
-                      <p>Information</p> 
-                      <img src="img/?????.png" alt="????" width="150" height="150">
-                  </div>
-              </div>  
-          </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-              <div class="explore-item">
-                  <div class="explore-text">
-                      <h3>Initial Analysis</h3>
-                      <p>information</p>
-                          <img src="img/????.png" alt="????" width="375" height="300">
-                          <br>
-                  </div>
-              </div>
-          </div>
-      </div>
-      </div>   
-  </div>
-  <!--Data Exploration End-->
+        <div class="container">
+            <div class="section-header text-center wow zoomIn"
+            data-wow-delay="0.1s">
+            <p>Data Exploration</p>
+            <br>
+            <h2>Data Exploration and Initial Analysis</h2>
+            <p> Initial data examination and identification began with making choices on what and how to scrape from the DPI site. Publicly available data goes back more than twenty years, so it was necessary for the team to first narrow down the scope. While a recent two- to three-year scope was identified by the team as desirable to examine trends, the global pandemic had a significant effect on school district reporting and trends, so a decision was made to collect data from the 2017-18, 2018-19, 2019-20, 2020-21, and 2021-22 school years. In this way, the team hoped to focus on multiple year trends and the most recent data, while still allowing for anomalous data from the years affected most by the pandemic.
+  
+              Examination began by pulling all available data for each year, joining the tables to create tables that reflected the longitudinal data for each report in preparation for more detailed examination, database creation, and table joins and querying.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                <div class="explore-item">
+                    <div class="explore-text">
+                        <h3>Revenue Impact on Achievement Scores</h3>
+                        <p> A very basic analysis of overall funding and its impact on achievement scores can be completed as seen below; however, there are many factors that need to be taken into account to determine a monetary value that ensures the success of each student.  To further explore adequet funding that yeilds high achievement scores/continuing education, we will narrow our search to impactful information and make sure data is evenly weighed per student. </p>
+                        <img src="img/plot9.png" alt="overall_funding" width="375" height="300">
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="explore-item">
+                    <div class="explore-text">
+                        <h3>Data Availability </h3>
+                        <p>While pulling data, the team immediately identified two confounding factors: post-secondary data has not yet been reported and uploaded to DPI for the 2021-22 school year, and school district report card data is not available for the 2019-20 school year.</p>
+                          <img src="img/NoRptCd2019.png" alt="report" width="350" height="150">
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                <div class="explore-item">
+                    <div class="explore-text">
+                        <h3>Data Point Inconsistency</h3>
+                        <br>
+                        <p>Individual fields within the collected data that purported to show the same data still contained inconsistencies. For example, one report may refer to district 14 as "Adams-Friendship Area" and another as "Adams Friendship Area Schools". Most reports also contained student enrollment data, but the data varied slightly due to the points in time when it was collected. Districts report enrollment on the third Friday of September, but post-secondary enrollment reporting is based on much more dyniamic sources of information.
+  
+                          Other important outlier data included district types. Typical extracurricular spending increases at the secondary level. While most districts within the state are K-12 (meaning they serve students from kindergarten through twelfth grade), there are a number of other configurations. For example, the Big Foot Joint School District is a 9-12 only district, serving four separate K-8 districts as a consolidated high school. Although the students all flow up to the same secondary school district, each feeder district maintains it's own costs, revenues, and budgets.</p> 
+                        
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="explore-item">
+                    <div class="explore-text">
+                        <h3>Data Size</h3>
+                        <p>In order to gather specific data on extracurricular program, which is coded as "Co-Curricular Activities" in Wisconsin school district financial reporting documents, the team needed to pull full budgetary details for each school district over each year. The State of Wisconsin makes all of this data available, but because the data includes every single coded expenditure for every district for the entire school year, each year is split into multiple files. When combining this data, the team needed to make multiple decisions in order to pare the data down. Initial attempts to join the tables led to creation of a database that was so large even Google CoLab was unable to parse it.</p>
+                            <img src="img/datasizestruggle.png" alt="size" width="500" height="50" >
+                            <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>   
+    </div>
+    <!--Data Exploration End-->
 
      <!--Tableau Dashboard Start-->
 <div class='tableauPlaceholder' id='viz1659749105215' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;Activity_Spending_Education&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Activity_Spending_Education&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;Activity_Spending_Education&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1659749105215');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='977px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
@@ -439,27 +445,6 @@
     </div>
 
     <!--Machine Lerning Results End-->
-    <!--Lessons Learned Start-->
-    <div class="lessons wow fadeInUp" data-wow-delay="0.1s" id="lessons">
-      <div class="container-fluid">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-8">
-                <br>
-                <br>
-                <h3>Lessons Learned</h3>
-                <p>Lessons n things</p>
-
-                  <p></p>
-                  <p></p>
-              </div>
-              <img src="img/lessons1.jpg" alt="lessons" width="1250" height="650">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <!--Lessons Learned End-->
     
   <!--  Technologies Start -->
   <div class="banner wow zoomIn" data-wow-delay="0.1s" id="workflow">
@@ -497,9 +482,6 @@
               </div>
               <div class="team-text">
                 <h2>Bryon Hobbs</h2>
-                <h4>Job</h4>
-                <p> Blurb
-                </p>
                 <div class="team-social">
                   <a class="btn" href="https://github.com/bryonlhobbs"><i class="fab fa-github"></i></a>
                   <a class="btn" href="https://www.linkedin.com/in/bryon-hobbs-482855181/"><i class="fab fa-linkedin-in"></i></a>
@@ -514,9 +496,6 @@
               </div>
               <div class="team-text">
                 <h2>Brenda Johansen</h2>
-                <h4>Job</h4>
-                <p> Blurb
-                </p>
                 <div class="team-social">
                   <a class="btn" href="https://github.com/BJo0502/Arrest_Trends_in_Texas"><i class="fab fa-github"></i></a>
                 </div>
@@ -530,9 +509,6 @@
               </div>
               <div class="team-text">
                 <h2>Lalita Ponnapalli</h2>
-                <h4>Job</h4>
-                <p> Blurb
-                </p>
                 <div class="team-social">
                   <a class="btn" href="https://github.com/BJo0502/Arrest_Trends_in_Texas"><i class="fab fa-github"></i></a>
                 </div>
@@ -546,9 +522,6 @@
               </div>
               <div class="team-text">
                 <h2>Staci Stapleton</h2>
-                <h4>Senior Scientist</h4>
-                <p>blurb
-                </p>
                 <div class="team-social">
                   <a class="btn" href="https://github.com/slstapleton"><i class="fab fa-github"></i></a>
                   <a class="btn" href="www.linkedin.com/in/staci-stapleton"><i class="fab fa-linkedin-in"></i></a>

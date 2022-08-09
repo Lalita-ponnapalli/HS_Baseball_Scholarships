@@ -31,7 +31,6 @@ Below is a brief outline of the machine learning approach we plan on taking to a
 ![learning_machine_outline](https://user-images.githubusercontent.com/100329223/179615531-3e59a72d-a969-4546-8c42-e6ea8cb83860.png)
 
 ### Initial Analysis and Data Exploration
-(Bryon pulling simple graph, Brenda adding in screenshots from initial jupyter notebook cleaning and exploration)
 Initial data examination and identification began with making choices on what and how to scrape from the DPI site. Publicly available data goes back more than twenty years, so it was necessary for the team to first narrow down the scope. While a recent two- to three-year scope was identified by the team as desirable to examine trends, the global pandemic had a significant effect on school district reporting and trends, so a decision was made to collect data from the 2017-18, 2018-19, 2019-20, 2020-21, and 2021-22 school years. In this way, the team hoped to focus on multiple year trends and the most recent data, while still allowing for anomalous data from the years affected most by the pandemic. 
 
 Examination began by pulling all available data for each year, joining the tables to create tables that reflected the longitudinal data for each report in preparation for more detailed examination, database creation, and table joins and querying.
@@ -39,7 +38,7 @@ Examination began by pulling all available data for each year, joining the table
 #### Confounding Factors and Solutions
 ##### Data Availability
 While pulling data, the team immediately identified two confounding factors: post-secondary data has not yet been reported and uploaded to DPI for the 2021-22 school year, and school district report card data is not available for the 2019-20 school year. 
-![No Report Cards for 2019-20 School Year](link to NoRptCd2019.png)
+![NoRptCd2019](https://user-images.githubusercontent.com/100329223/183537902-c44e6a0d-88c0-46f8-8092-b3813598a22a.png)
 
 ##### Data Point Inconsistency
 Individual fields within the collected data that purported to show the same data still contained inconsistencies. For example, one report may refer to district 14 as "Adams-Friendship Area" and another as "Adams Friendship Area Schools". Most reports also contained student enrollment data, but the data varied slightly due to the points in time when it was collected. Districts report enrollment on the third Friday of September, but post-secondary enrollment reporting is based on much more dyniamic sources of information. 
@@ -48,7 +47,7 @@ Other important outlier data included district types. Typical extracurricular sp
 
 ##### Data Size
 In order to gather specific data on extracurricular program, which is coded as "Co-Curricular Activities" in Wisconsin school district financial reporting documents, the team needed to pull full budgetary details for each school district over each year. The State of Wisconsin makes all of this data available, but because the data includes every single coded expenditure for every district for the entire school year, each year is split into multiple files. When combining this data, the team needed to make multiple decisions in order to pare the data down. Initial attempts to join the tables led to creation of a database that was so large even Google CoLab was unable to parse it.
-![Memory Error](link to datasizeerror.png)
+![datasizestruggle](https://user-images.githubusercontent.com/100329223/183538256-b59c6b46-1b5a-41c1-a2f7-3366e23b9d7e.png)
 
 ### Machine Learning
 The data, once taken in, required some preprocessing to get it ready for machine learning.  This involved removing identifying columns and columns where there weas only one unique value throughout the data.  

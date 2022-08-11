@@ -76,6 +76,8 @@ However, the oob score, which is recommended to be between 0.75 and 1.0, was ver
 
 Below is an outline of what will be within our dashboard:
 ![image](https://user-images.githubusercontent.com/100329223/182133044-1ea27941-db19-43c1-a31e-9962b62d2011.png)
+
+
 Tableau: https://public.tableau.com/app/profile/staci.stapleton/viz/Activity_Spending_Education/Dashboard1
 
 ### Conclusion
@@ -84,4 +86,5 @@ Once data had been cleaned and filtered down into a set usable with the resource
 Several factors merit further analysis using resources not available to a student group. Revenue levels per student are particularly sticky in Wisconsin, given the implementation of revenue growth caps in 1993. Since then, school districts have been limited to increasing their revenues within specific areas to a specific percentage, unless they use a referendum. Arguments have been made that the growth cap has artificially frozen districts into spending models that are not reflective of their current makeup and structure (https://www.wpr.org/rising-referendums-school-funding-101). Further longitudinal dives into the specific revenue levels per student historically may shed light on whether districts that have seen dramatic changes in makeup since the 1993 freeze are able to adjust and provide the same levels of extracurricular spending allowed by districts that have remained unchanged.
 
 Website: https://lalita-ponnapalli.github.io/HS_Baseball_Scholarships/ 
+
 Slideshow: https://docs.google.com/presentation/d/189JNHJ9g3HW9iKQu1dxWl6iNW47X_uBXRPmDhJm5V3o/edit#slide=id.g13e27def9eb_0_0
